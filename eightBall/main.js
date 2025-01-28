@@ -1,14 +1,17 @@
 const userName = "";
-const userQuestion = "Am I ever going to make it?";
-const randomNumber = Math.floor(Math.random() * 8);
-const eightBall = "";
 
-if (userName === "") {
+if (userName) {
     console.log(`Hello ${userName}!`);
 } else {
     console.log("Hello!")
 }
+
+const userQuestion = "Am I ever going to make it?";
 console.log(userQuestion);
+
+const randomNumber = Math.floor(Math.random() * 8);
+
+let eightBall = "";
 
  if (randomNumber === 0) {
     console.log("Hell Yeah!");
@@ -29,7 +32,5 @@ console.log(userQuestion);
  } else {
     console.log("You break, you buy");
  }
-
- console.log(randomNumber);
 
 
