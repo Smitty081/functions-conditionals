@@ -1,4 +1,4 @@
-const userName = "Jeffrey";
+const userName = "";
 const userQuestion = "Am I ever going to make it?";
 const randomNumber = Math.floor(Math.random() * 8);
 const eightBall = "";
