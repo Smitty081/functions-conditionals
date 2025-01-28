@@ -1,9 +1,9 @@
-const userName = "";
+const userName = "Jeffrey";
 const userQuestion = "Am I ever going to make it?";
 const randomNumber = Math.floor(Math.random() * 8);
 const eightBall = "";
 
-if (userName === "Jeffrey") {
+if (userName === "") {
     console.log(`Hello ${userName}!`);
 } else {
     console.log("Hello!")
